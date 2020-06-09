@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<title>Create Post</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="event.js"></script>
+
+<div class="header">
+	<a href="index.html">My Blog</a>
+	<input type="text" id="search_query" placeholder="Search for a blog post..." style="font-size:18pt;height:30px;width:600px;">
+	<button class="button" onclick="search_posts(search_query.value)">Search</button>
+</div>
+
+<div class="card">
+	<h4>Title</h4>
+	<input class="text" type="text" id="title" placeholder="Enter your title..." style="font-size:15pt;height:25px;width:1350px;">
+	<h4>Content</h4>
+	<textarea class="text" type="text" id="content" placeholder="Enter your content..." style="font-size:15pt;height:500px;width:1350px;"></textarea>
+</div>
+
+
+<div class="footer">
+	<a class="button" onclick="create_post(title.value, content.value)">Submit</a>
+</div>
+
+</html>

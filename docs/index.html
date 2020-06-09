@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="event.js"></script>
+
+<div class="header">
+	<a href="index.html">My Blog</a>
+	<input type="text" id="search_query" placeholder="Search for a blog post..." style="font-size:18pt;height:30px;width:600px;">
+	<button class="button" onclick="search_posts(search_query.value)">Search</button>
+	<span>or</span>
+	<a href="create.html" class="button">Create new blog post</a>
+</div>
+
+<div class="card">
+	<span style="font-size:20pt">POST TITLE</span>
+	<button class="button" onclick="edit_post()">Edit</button>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore
+magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.</p>
+	<h4>Posted 20 minutes ago</h4>
+</div>
+<div class="card">
+	<span style="font-size:20pt">POST TITLE</span>
+	<button class="button" onclick="edit_post()">Edit</button>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore
+magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.</p>
+	<h4>Posted 1 hour ago</h4>
+</div>
+<div class="card">
+	<span style="font-size:20pt">POST TITLE</span>
+	<button class="button" onclick="edit_post()">Edit</button>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore
+magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.</p>
+	<h4>Posted 2 days ago</h4>
+</div>
+
+<div class="footer">
+  <button class="button" onclick="back_to_top()">Back to top</button>
+</div>
+
+</html>
